@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>JS Variables</header>
+      <a href="#Javascript_and_Java" class="nav-link">Javascript and Java</a>
+      <a href="#Hello_World" class="nav-link">Hello World</a>
+      <a href="#Variables" class="nav-link">Variables</a>
+      <a href="#Declaring_Variables" class="nav-link">Declaring Variables</a>
+      <a href="#Variable_Scope" class="nav-link">Variable Scope</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Javascript_and_Java">
+        <header>Javascript and Java</header>
+        <p>
+          JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java
+          expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
+        </p>
+
+        <p>
+          In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a
+          prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports
+          functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.
+        </p>
+
+        <p>
+          JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have
+          to implement interfaces. Variables, parameters, and function return types are not explicitly typed.
+        </p>
+      </section>
+
+      <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
+        <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+        <code>
+          <pre>
+function greetMe(yourName) { 
+    alert("Hello " + yourName); 
+} greetMe("World");</pre
+          >
+        </code>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad et adipisci nulla facere tempora commodi repellat, eum reprehenderit itaque repudiandae animi provident nihil, reiciendis delectus voluptatibus beatae dolorum soluta.
+          Impedit, consectetur? Sunt, fuga nihil quo laboriosam earum, aut quos voluptatum, doloremque illo cumque incidunt cupiditate? Possimus consectetur nostrum impedit.
+        </p>
+      </section>
+
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut autem eveniet doloribus assumenda officiis illo consequatur minima repellendus facilis natus? Nemo sint quos dolores assumenda eius amet enim eaque inventore blanditiis
+          laboriosam! Vitae fuga excepturi animi autem perferendis eius quaerat, exercitationem beatae expedita magni eveniet dolores. Molestiae iure sapiente magnam reprehenderit placeat blanditiis eius delectus perferendis error nisi eos
+          quo dolores voluptatibus rem asperiores adipisci vero, quisquam fuga velit dolore! Facilis voluptates quibusdam possimus delectus architecto quod aliquam incidunt culpa.
+        </p>
+        <p>Primitive data types:</p>
+        <ul>
+          <li>Boolean. true and false.</li>
+          <li>null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
+          <li>undefined. A top-level property whose value is undefined.</li>
+          <li>Number. 42 or 3.14159.</li>
+          <li>String. "Howdy"</li>
+          <li>Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Declaring_Variables">
+        <header>Declaring Variables</header>
+        <p>With the keyword var. For example,</p>
+        <code>
+          <pre>var x = 42.</pre>
+        </code>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente nihil, molestiae distinctio unde voluptas itaque suscipit alias minus, repellendus earum, eligendi dolorem harum similique maxime esse assumenda enim vero totam!
+        </p>
+        <p>By simply assigning it a value. For example,</p>
+        <code>
+          <pre>x = 42.</pre>
+        </code>
+        <p></p>
+        <p>
+          Dolore, in dolorum asperiores maxime sit error nihil, a at vel, odit quibusdam officia blanditiis animi repudiandae ipsum velit rem. Numquam, distinctio corporis? Dicta culpa, dolorem iusto architecto dolore, porro qui officiis
+          provident aspernatur quae rem sequi, accusamus doloribus omnis?
+        </p>
+        <p>With the keyword let. For example,</p>
+        <code>
+          <pre>let y = 13.</pre>
+        </code>
+        <p></p>
+      </section>
+
+      <section class="main-section" id="Variable_Scope">
+        <header>Variable Scope</header>
+        <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
+        <code>
+          <pre>
+if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
+            defined</pre
+          >
+        </code>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quam laudantium iusto magni id minus in dicta, provident temporibus tempora culpa doloremque fugiat esse fugit omnis incidunt perferendis nulla asperiores nam
+          dolores rem expedita ab! Quo repudiandae aut quia quae molestias, consequatur et labore ex maiores, consectetur eum saepe expedita dicta voluptate dolorem voluptatum rem! Officiis aut soluta culpa aspernatur esse tempora error,
+          quidem sapiente assumenda sit, perferendis voluptate cupiditate natus deleniti, vitae repudiandae! Modi, nam?
+        </p>
+      </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
